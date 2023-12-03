@@ -22,14 +22,14 @@ class Visiteur1 implements VisiteurElement {
   @Override
   public void visiter(Batterie batterie) {
     // Afficher les caractéristiques spécifiques de la Batterie
-    System.out.println("Capacite de la batterie : " + batterie.getPuissance());
+    System.out.println("Capacite de la batterie de velo  : " + batterie.getPuissance());
   }
 
   @Override
 
   public void visiter(Pneu pneu) {
     // Afficher les caractéristiques spécifiques du Pneu
-    System.out.println("largeur de pneu : " + pneu.getLargeur());
+    System.out.println("largeur de pneu de velo: " + pneu.getLargeur());
   }
 }
 
